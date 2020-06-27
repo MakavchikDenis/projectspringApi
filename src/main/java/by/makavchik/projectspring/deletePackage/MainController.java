@@ -1,27 +1,11 @@
-package by.makavchik.projectspring.controller;
+package by.makavchik.projectspring.deletePackage;
 
 
-import by.makavchik.projectspring.form.PersonForm;
-import by.makavchik.projectspring.model.Person;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Value;
-
-import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import javax.validation.Valid;
-
-import org.springframework.validation.Errors;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.ModelAndView;
-
-
-
-import java.util.*;
-
+/*
 @Slf4j
 @Controller
 @RequestMapping
-public class MainController {
+ private class MainController {
     private static List<Person> persons = new ArrayList<>();
     static {
         persons.add(new Person("Olga", "Pertova","Molod.str", "Minsk",
@@ -91,4 +75,4 @@ public class MainController {
         }
         return modelAndView;
     }
-}
+}*/

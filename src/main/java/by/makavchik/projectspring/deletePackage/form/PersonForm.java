@@ -1,4 +1,4 @@
-package by.makavchik.projectspring.form;
+package by.makavchik.projectspring.deletePackage.form;
 
 
 import by.makavchik.projectspring.validator.CellPhone;
