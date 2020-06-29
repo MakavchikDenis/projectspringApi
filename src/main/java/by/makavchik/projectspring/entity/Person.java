@@ -15,6 +15,7 @@ import java.util.Date;
 public class Person {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column (name = "id")
     private Long ID;
     @Column(name = "name")
     private String FirstName;
@@ -32,4 +33,5 @@ public class Person {
     private String birthday;
     @Column(name = "phone")
     private String phone;
+
 }
